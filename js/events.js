@@ -12,6 +12,12 @@ function frameIt(){
   })
 }
 
+function pressIt(){
+  $('input').on('keydown', function(){
+    if($('input.value')===)
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
