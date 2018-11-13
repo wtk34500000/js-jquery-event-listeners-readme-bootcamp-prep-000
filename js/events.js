@@ -13,8 +13,8 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('input').on('keydown', function(){
-    if($('input.value')===)
+  $('input').on('keydown', function(key){
+    if($('input').value()===71)
   })
 }
 
